@@ -1,0 +1,188 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+	margin: 0px;
+}
+
+.fully {
+	margin: auto;
+	width:100%;
+	height: 100%;
+	display: flex;
+	position: absolute;
+	z-index: 0;
+}
+.floating {
+	position: absolute;
+	z-index: 2;
+	text-align: center;
+}
+@font-face {
+	font-family: Righteous;
+	src: url(Righteous-Regular.ttf);
+}
+.fancy {
+	font-size: 40px;
+	font-weight: bold;
+	color: #ffffff;
+	font-family: 'Righteous';
+}
+.specialOne {
+	width: 300px;
+	cursor: crosshair;
+	height: 55px;
+	background-color: black;
+}
+@media only screen and (max-width: 310px) {
+	.fancy {
+		font-size: 30px
+	}
+	.specialOne {
+		width: 200px;
+		height: 42px;
+	}
+}
+.screenFull {
+	position: relative;
+	width:100%;
+}
+.fancy2 {
+	font-size: 45px;
+	font-weight: bold;
+	font-family: 'Righteous';	
+}
+@media only screen and (max-width: 600px) {
+	.fancy2 {
+		font-size: 30px;
+	}
+}
+.fully2 {
+	position: absolute;
+	z-index: 1;
+	max-width: 100%; 
+	max-height: 80%;
+	height: auto;
+}
+.divider {
+	width: 100%;
+	height: 300px;
+	background-color: #0067a3;
+}
+.divider2 {
+	width: 100%;
+	height: 300px;
+	background-color: #878787;
+}
+.next {
+	position: fixed;
+	z-index: 10;
+	bottom: 20px;
+	height: 100px;
+	width: 100px;
+	background-image: url("down-arrow3.jpg");
+	background-size: 100%;
+	background-color: black;
+	border-radius: 50%;
+	opacity: 0.2;
+	transition: opacity 0.5s;
+}
+.next:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+.translucent {
+	opacity: 0.5;
+}
+.floating2 {
+	position: absolute;
+	z-index: 2;
+	max-width: 1000px;
+	width: auto;
+	text-align: center;
+}
+.divider3 {
+	width: 100%;
+	height: 300px;
+	background-color: #eb4034;	
+}
+.quarterTop {
+	margin-top: 10%;
+}
+.btContainer {
+	width: 100%;
+	overflow: visible;
+}
+.btRow {
+	float: left;
+	width: 18vw;
+	height: 18vw;
+	margin-left: 11vw;
+}
+@media only screen and (max-width: 1260px) {
+	.btRow {
+		width: 28vw;
+		height: 28vw;
+		margin-left: 4vw;
+	}
+}
+@media only screen and (max-width: 646px) {
+	.btRow {
+		float: none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media only screen and (max-width: 438px) {
+	.btRow {
+		width: 150px;
+		height: 150px;
+	}
+	.quarterTop {
+		font-size: 30px;
+	}
+}
+.bt1 {
+	border: 5px solid black;
+	background-image: url("pattern_coloured.jpg");
+	cursor: pointer;
+}
+.bt2 {
+	border: 5px solid black;
+	background-image: url("web_draw.jpg");
+	background-size: 100%;
+	cursor: pointer;
+}
+.bt3 {
+	border: 5px solid black;
+	background-image: url("new_word.jpg");
+	background-size: 100%;
+	cursor: pointer;
+}
+.round {
+	border-radius: 50%;
+}
+.floating3 {
+	position: absolute;
+	z-index: 4;
+	text-align: center;
+}
+.switchC {
+	border: 2px solid white;
+	background-color: black;
+	border-radius: 15px;
+	width: 35px;
+	height: 35px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	transition: border 0.5s, color 0.5s;
+}
+.switchC:hover {
+	border: 2px solid aqua;
+	color: aqua;
+}
+.switch {
+	margin-top: 3%;
+}
